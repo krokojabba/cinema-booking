@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Webpack App</title>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Booking</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="bookBtn">Book</button>
+                    <!--<a class="btn btn-primary" href="" role="button" target="_blank" rel="noopener noreferrer"
+                        previewlistener="true">Book</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h1>Cinema booking</h1>
+        </div>
+        <div class="row">
+            <form class="col-3">
+                <div class="row">
+                    <label class="form-label">Select date</label>
+                    <select class="form-select form-select mb-3" name="date" id="date">
+                        <!--<option selected value="rub">RUB</option>
+                        <option value="usd">USD</option>
+                        <option value="eur">EUR</option>-->
+                    </select>
+                    <label class="form-label">Select session</label>
+                    <select class="form-select form-select mb-3" name="session" id="session">
+                        <!--<option selected value="rub">RUB</option>
+                        <option value="usd">USD</option>
+                        <option value="eur">EUR</option>-->
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="row g-0">
+            <table class="table table-bordered table-sm" id="timeTable">
+                <thead>
+                    <tr>
+                        <th scope="col" class="col-1"></th>
+                        <!--<th scope="col" class="col-1">1</th>
+                        <th scope="col" class="col-1">2</th>
+                        <th scope="col" class="col-1">3</th>-->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--<tr>
+                        <th scope="row" class="col-1">1</th>
+                        <td><button class="btn btn-primary" type="button" data-bs-target="#modal" data-bs-toggle="modal" data-row="1" data-seat="1"></button></td>
+                    </tr>-->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
