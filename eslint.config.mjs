@@ -6,6 +6,6 @@ export default [
   {languageOptions: { globals: globals.browser }},
   pluginJs.configs.recommended,
   {
-    ignores: ['temp.js', 'webpack.config.js', 'eslint.config.js'],
+    ignores: ['temp.js', 'webpack.config.js', 'eslint.config.js', 'dist/*'],
   },
 ];
